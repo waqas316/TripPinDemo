@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="TripPin.Application/TripPin.Application.csproj" />
+  <Project Path="TripPin.Domain/TripPin.Domain.csproj" />
+  <Project Path="TripPin.Infrastructure/TripPin.Infrastructure.csproj" />
+  <Project Path="TripPin.Tests/TripPin.Tests.csproj" />
+  <Project Path="TripPinDemo/TripPin.Console.csproj" />
+</Solution>
