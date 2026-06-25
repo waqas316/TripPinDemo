@@ -51,7 +51,7 @@ public sealed class PeopleExplorer (IPeopleService _people)
 
     private async Task SearchPeopleAsync(CancellationToken cancellationToken)
     {
-        SysConsole.Write("Name or username contains: ");
+        SysConsole.Write("First name/Last name or username contains: ");
         var term = SysConsole.ReadLine()?.Trim();
 
         if (string.IsNullOrWhiteSpace(term))
